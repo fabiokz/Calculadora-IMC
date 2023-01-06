@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+        <header>
+            <div>
+                <h1 class="title">Calculadora de IMC</h1>
+                <p class="autor">FabioKZ &#169; 2022</p>
+            </div>
+        </header>
+        <p id="info">Suas Informações</p>
+
+      <div class="input">
+        <div class="input">
+            <label>Altura:</label><br>
+            <input type="number" id='altura'>
+        </div>
+        <div class="input">
+            <label>Peso:</label><br>
+            <input type="number" id='peso'>
+        </div>
+        <button id='calcular'>Calcular</button>
+
+        <p id="textoResultado">Resultado:</p><div class="result" id='resultado'></div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://indicedemassacorporal.com/tabela-imc.html"><input type="button" value="Tabela IMC"></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

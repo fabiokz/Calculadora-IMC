@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    font-size: 26px;
+    padding: 3%;
+    background-color: #0c8cd3;
+    color: #fff;
+}
+
+.autor {
+    text-align: right;
+    font-size: 15px;
+}
+
+#info {
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    text-align: center;
+    font-size: 18px;
+	margin: 0 auto;
+}
+
+button {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px;
+    margin: 15px auto 10px auto;
+    background-color:#0c8cd3;
+    border: 1px solid;
+    border-bottom: 3px solid;
+    border-color: #084a70;
+	cursor: pointer;
+}
+
+.input {
+    padding-top: 15px;
+}
+
+#peso, #altura {
+    margin: 5px;
+}
+
+#textoResultado {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin: 1em auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
